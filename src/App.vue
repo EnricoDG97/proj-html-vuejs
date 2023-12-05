@@ -1,6 +1,11 @@
 <script >
   import { store } from "./store.js"
+  import AppHeader from "./components/AppHeader.vue"
+  import AppBody from "./components/AppBody.vue"
+  import AppFooter from "./components/AppFooter.vue"
+
   export default {
+    components: { AppHeader, AppBody, AppFooter },
     data() {
       return {
         store,
@@ -11,6 +16,9 @@
 
 <template>
   <p> test </p>
+  <AppHeader />
+  <AppBody />
+  <AppFooter />
 </template>
 
 <style lang="scss">
