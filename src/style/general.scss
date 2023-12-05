@@ -1,0 +1,11 @@
+@use "./partials/mixins" as *;
+@use "./partials/variables" as *;
+@import "bootstrap/scss/bootstrap.scss";
+@import '@fontsource-variable/oswald';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $main-font;
+}
