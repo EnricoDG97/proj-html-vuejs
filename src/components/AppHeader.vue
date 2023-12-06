@@ -205,4 +205,5 @@ export default {
             object-fit: cover;
         }
     }
-}</style>
+}
+</style>

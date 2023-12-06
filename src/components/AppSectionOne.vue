@@ -86,6 +86,7 @@ ul.row {
     margin-right: $margin-right;
     margin-top: 20px;
     padding-bottom: 150px;
+    margin-bottom: 0px;
 
     li {
         @include flex(row, center, start);

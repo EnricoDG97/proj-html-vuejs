@@ -112,7 +112,7 @@ export default {
 
                 a {
                     text-decoration: none;
-                    color: rgb(121, 120, 136);
+                    color: $main-gray;
                     cursor: pointer;
                     padding: 4px;
 
@@ -137,12 +137,12 @@ export default {
     hr {
         margin-left: $margin-left;
         margin-right: $margin-right;
-        background-color: rgb(121, 120, 136);
+        background-color: $main-gray;
         height: 1px;
     }
 
     .bottom-footer {
-        color: rgb(121, 120, 136);
+        color: $main-gray;
         height: 150px;
         margin-left: $margin-left;
         margin-right: $margin-right;
