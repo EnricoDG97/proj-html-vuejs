@@ -15,14 +15,20 @@
 </script>
 
 <template>
-  <p> test </p>
-  <AppHeader />
-  <AppBody />
-  <AppFooter />
+  <div class="bg">
+    <AppHeader />
+    <AppBody />
+    <AppFooter />
+  </div>
 </template>
 
 <style lang="scss">
+@use "./style/partials/mixins" as *;
+@use "./style/partials/variables" as *;
 @use "./style/general.scss";
 @import "@fortawesome/fontawesome-free/css/all.css";
 
+.bg {
+  background-color: $main-bg-color;
+}
 </style>
