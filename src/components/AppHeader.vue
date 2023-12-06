@@ -154,7 +154,7 @@ export default {
         }
 
         h2 {
-            font-size: 120px;
+            font-size: 95px;
             text-transform: uppercase;
             z-index: 1;
         }

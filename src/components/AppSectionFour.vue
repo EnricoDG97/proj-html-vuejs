@@ -69,6 +69,10 @@ export default {
             img {
                 object-fit: contain;
                 max-width: 100%;
+                &:hover {
+                    opacity: 0.5;
+                    transition: opacity 0.3s ease;
+                }
             }
         }
     }
