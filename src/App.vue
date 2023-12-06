@@ -31,4 +31,5 @@
 .bg {
   background-color: $main-bg-color;
 }
+
 </style>

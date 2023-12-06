@@ -132,6 +132,7 @@ export default {
     margin-top: 80px;
     color: white;
     margin-left: $margin-left;
+    padding-bottom: 80px;
     @include flex(column, center, start);
 
     .description {
