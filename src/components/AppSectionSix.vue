@@ -6,11 +6,15 @@ export default {
 
 <template >
     <div>
-        <p>section 6</p>
+        <p>section 6 - missing</p>
     </div>
 </template>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
     
+    p {
+        text-align: center;
+        padding: 40px;
+    }
 </style>
