@@ -78,7 +78,6 @@ export default {
         margin-left: $margin-left;
         margin-right: $margin-right;
         overflow: hidden;
-
         .logo img {
             height: 1rem;
             width: auto;
