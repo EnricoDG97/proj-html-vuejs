@@ -1,10 +1,7 @@
 <script>
-import { store } from '../store';
 export default {
     data() {
         return {
-            store,
-
             backgroundImage: "../assets/images/business-people-working-together-on-project-and-5FHSKBL.jpg"
         }
     },
@@ -40,8 +37,6 @@ export default {
                 </h2>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sed, accusamus ex fugiat repudiandae asperiores? Animi illum deleniti doloremque id nobis rerum inventore ipsam, porro soluta tenetur assumenda perferendis qui.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere laudantium animi odio rem aut nisi nobis quibusdam dolor aliquam beatae ipsa, dolorum magnam cupiditate ipsam adipisci voluptas obcaecati. Id?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis est cum temporibus quia rem porro molestiae pariatur dolorem! Adipisci, accusantium? Porro doloribus nihil itaque eius. Deleniti delectus accusantium at. Assumenda?
                 </p>
             </div>
         </div>
@@ -56,12 +51,11 @@ export default {
 .customer-section {
     @include flex(row,center,center);
     margin-right: $margin-right;
+    gap: 50px;
     .section-right {
         width: 35%;
-        margin-top: 80px;
         color: white;
-        margin-left: $margin-left;
-        padding-bottom: 80px;
+        padding: 30px 0;
         @include flex(column, center, start);
     
         .description {
