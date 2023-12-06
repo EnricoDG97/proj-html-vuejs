@@ -84,6 +84,11 @@ export default {
         text-transform: uppercase;
         color: white;
         background-color: $main-bg-color;
+        &:hover {
+            color: black;
+            background-color: white;
+            transition: all .3s ease;
+        }
     }
 }
 
@@ -110,6 +115,10 @@ export default {
                     color: rgb(121, 120, 136);
                     cursor: pointer;
                     padding: 4px;
+
+                    &:hover {
+                        color: white;
+                    }
                 }
             }
         }
@@ -146,6 +155,10 @@ export default {
             a {
                 text-decoration: none;
                 color: inherit;
+
+                &:hover {
+                    color: white;
+                }
             }
         }
 
@@ -160,12 +173,14 @@ export default {
             overflow: hidden;
             text-align: center;
             cursor: pointer;
+
             i {
                 font-size: 15px;
                 color: white;
                 line-height: 0;
             }
         }
+
         .chat {
             position: absolute;
             right: -120px;
@@ -177,6 +192,7 @@ export default {
             overflow: hidden;
             text-align: center;
             cursor: pointer;
+
             i {
                 padding-top: 25px;
                 font-size: 25px;
